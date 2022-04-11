@@ -5,8 +5,7 @@
       "chipFamily": "ESP8266",
       "improv": false,
       "parts": [
-        { "path": "firmware.bin", "offset": 0 },
-        { "path": "filesystem.bin", "offset": 1048576 }
+        { "path": "firmware.bin", "offset": 0 }
       ]
     }
   ]
