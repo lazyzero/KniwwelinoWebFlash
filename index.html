@@ -41,11 +41,13 @@
                 console.log(button.shadowRoot.firstChild.name);
                 if(button.shadowRoot.firstChild.name == 'activate'){
                     //success: add the select picker and some info
+                    console.log("1: "+button.manifest);
                     const selectEl = document.querySelector("#pick-variant-selector");
                     button.manifest = selectEl.value;
+                    console.log("2: "+button.manifest);
                     selectEl.addEventListener("change", () => {
                         button.manifest = selectEl.value;
-                        console.log(button.manifest);
+                        console.log("3: "+button.manifest);
                     });
                 }
             }
