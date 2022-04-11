@@ -70,6 +70,7 @@
             const selectEl = document.querySelector("#pick-variant-selector");
             button.manifest = selectEl.value;
             console.log("3: "+button.manifest);
+            button.shadowRoot.firstChild.firstChild.text = "Flash!"
         }, 1000);
         
     </script>
