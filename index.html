@@ -65,8 +65,9 @@
     
     
     <script defer>
-        var ele = document.querySelector("#pick-variant-selector")
-        ele.trigger('change')
+        var ele = document.querySelector("#pick-variant-selector");
+        var event = new Event('change');
+        ele.dispatchEvent(event);
     </script>
 </body>
 </html>
