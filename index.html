@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html>
-<header>
-<script>
+<head>
+    <script type="module" src="https://unpkg.com/esp-web-tools/dist/web/install-button.js?module"></script>
+    <script>
     
         function makeSelector(){
             fetch('https://lazyzero.github.io/KniwwelinoWebFlash/manifest.json')
@@ -53,14 +54,15 @@
             }
         },{ once: true });
     </script>
-</header>
+</head>
 <body>
     <h1>Kniwwelino Reset</h1>
     <div class="pick-variant">
     <select id="pick-variant-selector"></select>
-    </div>
-    <script type="module" src="https://unpkg.com/esp-web-tools/dist/web/install-button.js?module"></script>
     <esp-web-install-button></esp-web-install-button>
+    </div>
+    
+    
     
 </body>
 </html>
