@@ -34,19 +34,7 @@
             }
         }
 
-       
-    </script>
-</head>
-<body>
-    <h1>Kniwwelino Reset</h1>
-    <div class="pick-variant">
-    <select id="pick-variant-selector"></select>
-    <esp-web-install-button></esp-web-install-button>
-    </div>
-    
-    
-    <script defer>
-         window.addEventListener("load", function(event) {
+        window.addEventListener("load", function(event) {
             makeSelector();
             try{
                 const button = document.querySelector("esp-web-install-button");
@@ -66,6 +54,21 @@
                 console.log(e);
             }
         },{ once: true });
+    </script>
+</head>
+<body>
+    <h1>Kniwwelino Reset</h1>
+    <div class="pick-variant">
+    <select id="pick-variant-selector"></select>
+    <esp-web-install-button></esp-web-install-button>
+    </div>
+    
+    
+    <script defer>
+        const button = document.querySelector("esp-web-install-button");
+        const selectEl = document.querySelector("#pick-variant-selector");
+        button.manifest = selectEl.value;
+        console.log("3: "+button.manifest);
     </script>
 </body>
 </html>
