@@ -1,5 +1,7 @@
 {
   "name": "Kniwwelino Demo - Full reset",
+  "version": "v1.3.3",
+  "new_install_prompt_erase": false,
   "builds": [
     {
       "chipFamily": "ESP8266",
