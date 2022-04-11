@@ -1,0 +1,11 @@
+{
+  "release": [
+    {
+      "path": "https://https://lazyzero.github.io/KniwwelinoWebFlash/firmwares/demo133/manifest.json",
+      "name": "Kniwwelino Demo",
+      "chipFamilies": [
+        "ESP8266"
+      ]
+    }
+  ]
+}
