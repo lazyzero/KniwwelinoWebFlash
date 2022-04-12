@@ -1,6 +1,16 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <style>
+        #pick-variant-selector {
+            padding: 8px 28px;
+            font-size: 14px;
+            margin-right: 10px;
+            border-radius: 4px;
+            background-color: white;
+            box-shadow: rgb(0 0 0 / 14%) 0px 2px 2px 0px, rgb(0 0 0 / 12%) 0px 3px 1px -2px, rgb(0 0 0 / 20%) 0px 1px 5px 0px;
+        }
+    </style>
     <script type="module" src="https://unpkg.com/esp-web-tools@7.3.1/dist/web/install-button.js?module"></script>
     <script>
     
@@ -69,7 +79,6 @@
             const button = document.querySelector("esp-web-install-button");
             const selectEl = document.querySelector("#pick-variant-selector");
             button.manifest = selectEl.value;
-             console.log("type: "+button.shadowRoot.firstChild.firstChild.innerText)
             console.log(button.manifest);
             button.shadowRoot.firstChild.firstChild.innerText = "Flash!"
         }, 1000);
