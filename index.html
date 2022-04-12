@@ -38,6 +38,7 @@
             makeSelector();
             try{
                 const button = document.querySelector("esp-web-install-button");
+                button.shadowRoot.firstChild.firstChild.innerText = "Flash!"
                 console.log(button.shadowRoot.firstChild.name);
                 if(button.shadowRoot.firstChild.name == 'activate'){
                     //success: add the select picker and some info
