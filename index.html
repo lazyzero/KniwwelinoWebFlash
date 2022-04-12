@@ -68,8 +68,9 @@
             const button = document.querySelector("esp-web-install-button");
             const selectEl = document.querySelector("#pick-variant-selector");
             button.manifest = selectEl.value;
-             console.log("type: "+button.shadowRoot.firstChild.firstChild.type)
+             console.log("type: "+button.shadowRoot.firstChild.firstChild.innerText)
             console.log(button.manifest);
+            button.shadowRoot.firstChild.firstChild.innerText = "Flash!"
         }, 1000);
         
     </script>
