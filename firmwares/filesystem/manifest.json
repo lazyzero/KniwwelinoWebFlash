@@ -1,13 +1,13 @@
 {
-  "name": "Kniwwelino Demo 1",
-  "version": "v1.3.3",
+  "name": "Filesystem",
+  "version": "v1",
   "new_install_prompt_erase": true,
   "builds": [
     {
       "chipFamily": "ESP8266",
       "improv": false,
       "parts": [
-        { "path": "Kniwwelino_demo.ino.bin", "offset": 0 }
+        { "path": "filesystem.bin", "offset": 1048576 }
       ]
     }
   ]
