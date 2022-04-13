@@ -6,13 +6,6 @@
       "chipFamilies": [
         "ESP8266"
       ]
-    },
-    {
-      "path": "https://lazyzero.github.io/KniwwelinoWebFlash/firmwares/filesystem/manifest.json",
-      "name": "Kniwwelino Filesystem",
-      "chipFamilies": [
-        "ESP8266"
-      ]
     }
   ],
   "examples": [
