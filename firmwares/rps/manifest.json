@@ -1,0 +1,14 @@
+{
+  "name": "Rock, Paper, Scissors",
+  "version": "v1",
+  "new_install_prompt_erase": true,
+  "builds": [
+    {
+      "chipFamily": "ESP8266",
+      "improv": false,
+      "parts": [
+        { "path": "RockPaperScissors.bin", "offset": 0 }
+      ]
+    }
+  ]
+}
